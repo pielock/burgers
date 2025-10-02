@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color:lightgray;
+    background-color:#817e7e;
 }
 p{
     color:rgb(0, 0, 0);
@@ -67,3 +67,25 @@ about img {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgray;
+}
+
+label[for="email"]::before {
+    content: "✉️ ";
+    margin-right: 5px;    
+}
+label[for="phone"]::before {
+    content: "📞 ";
+    margin-right: 5px;    
+}
